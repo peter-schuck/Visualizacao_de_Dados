@@ -6,8 +6,8 @@
 
 ## Identificação
 
-- **Nome**: <mark>`<preencher>`</mark>
-- **Cartão UFRGS:** <mark>`<preencher>`</mark>
+- **Nome**: Pedro Schuck de Azevedo
+- **Cartão UFRGS:** 587553
 
 ## Dados utilizados
 
@@ -17,8 +17,8 @@
 > - Se houver mais de um conjunto de dados, liste todos separadamente.
 > - Para cada conjunto de dados, inclua também uma **descrição curta** explicando os dados.
 
-1. **Dataset 1**: <mark>`<link>`</mark>
-    * **Descrição curta**: <mark>`<preencher>`</mark>
+1. **Dataset 1**: Dataset Instituto Nacional de Meteorologia (INMET): https://portal.inmet.gov.br/dadoshistoricos
+    * **Descrição curta**: Dados meteorológicos com múltiplas variávies (precipitação, umidade, temperatura e etc) de distintos períodos de tempo e locais do Brasil. Especificamente para esta visualização, utilizou-se dados de Porto Alegre do ano de 2024.
 2. **Dataset 2**: <mark>`<link>`</mark>
     * **Descrição curta**: <mark>`<preencher>`</mark>
 3. ...
