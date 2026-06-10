@@ -37,7 +37,7 @@
 > - Insira aqui uma imagem da visualização criada por você. Troque `imagem-da-visualizacao.png` pelo caminho correto do arquivo no repositório. 
 > - Se você criou alguma visualização interativa, então descreva aqui como acessá-la. Por exemplo, se for uma página HTML, coloque o link, ou se for uma visualização 3D, descreva como compilar e executar o código. 
 
-Para interagir com a visualização (movimentar o slider ou checar os atributos de cada ponto do scatterplot) basta rodar as células do notebook em qualquer ambiente que possua as bibliotecas pandas e altair de python, desde que os dados do .CSV estejam na mesma pasta que este.
+Para interagir com a visualização (checar os atributos de cada ponto do scatter plot) basta rodar as células do notebook em qualquer ambiente que possua as bibliotecas pandas e altair de python, desde que os dados do .CSV estejam na mesma pasta que este.
 
 ![Visualização resultante](imagem-da-visualizacao.png)
 
@@ -50,7 +50,7 @@ Para interagir com a visualização (movimentar o slider ou checar os atributos 
 > - Escreva um texto curto explicando como interpretar a visualização. Descreva os elementos visuais, eixos, cores, símbolos ou interações relevantes.
 > - Este texto seria a legenda (*caption*) que acompanharia a figura em uma publicação, por exemplo.
 
-Scatterplot com agregação em Bubble chart da temperatura (°C) pela umidade (%) para todos os dias do ano de 2024 no bairro Jardim Botânico de Porto Alegre. Cada ponto representa um dia no scatterplot com a cor referindo-se a quantidade de precipitação (mm) nele ou representa um conjunto de dias no Bubble chart agregado, com a área do círculo representando a contagem da quantidade de dias que correspondem a certa faixa de temperatura e umidade.
+Scatter plot da temperatura (°C) pela umidade (%) para todos os dias do ano de 2024 no bairro Jardim Botânico de Porto Alegre. Cada ponto representa um dia no scatter plot com a cor referindo-se a quantidade de precipitação (mm) nele, com dois histogramas indicando a distribuição de frequência de pontos para cada um dos eixos do gráfico.
 
 ### Conclusão demonstrada pela visualização
 
@@ -59,4 +59,6 @@ Scatterplot com agregação em Bubble chart da temperatura (°C) pela umidade (%
 > - Escreva uma conclusão curta sobre os dados com base na visualização.
 > - Explique qual insight, padrão ou tendência pode ser observado.
 
-Percebe-se que existe uma leve correlação negativa entre temperatura e umidade, ou seja, dias mais quentes tendem a ser menos úmidos. Fora isso, a precipitação parece ser a causa de alguns dos dias mais úmidos, além de manter as temperaturas perto da faixa de 20 a 22°C. Mantendo o foco na contagem de dias, nota-se que a grande maioria encontra-se nos intervalos de 20 a 26°C de temperatura e 65 a 85% de umidade, indicando uma predominância anual de temperaturas amenas e umidade relativamente alta.
+- Percebe-se que existe uma leve correlação negativa entre temperatura e umidade, ou seja, dias mais quentes tendem a ser menos úmidos, fator indicado pela inexistência de dias com altas temperaturas e umidade simultaneamente no canto superior direito do scatter plot;
+- Fora isso, a precipitação parece ser a causa de alguns dos dias mais úmidos, representado pelos pontos mais vermelhos e amarelos estarem todos na parte superior do gráfico;
+- Focando na distribuição dos histogramas, nota-se que a grande maioria dos dias encontra-se nos intervalos de 18 a 26°C de temperatura e 70 a 86% de umidade, apontando para uma predominância anual de temperaturas amenas e umidade relativamente alta.
