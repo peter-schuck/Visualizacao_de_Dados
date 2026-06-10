@@ -50,7 +50,7 @@ Para interagir com a visualização (checar os atributos de cada ponto do scatte
 > - Escreva um texto curto explicando como interpretar a visualização. Descreva os elementos visuais, eixos, cores, símbolos ou interações relevantes.
 > - Este texto seria a legenda (*caption*) que acompanharia a figura em uma publicação, por exemplo.
 
-Scatter plot da temperatura (°C) pela umidade (%) para todos os dias do ano de 2024 no bairro Jardim Botânico de Porto Alegre. Cada ponto representa um dia no scatter plot com a cor referindo-se a quantidade de precipitação (mm) nele, com dois histogramas indicando a distribuição de frequência de pontos para cada um dos eixos do gráfico.
+Scatter plot da temperatura (°C) pela umidade (%) para todos os dias do ano de 2024 no bairro Jardim Botânico de Porto Alegre. Cada ponto representa um dia no scatter plot com a cor referindo-se ao logartimo da quantidade total de precipitação (mm) nele, com dois histogramas indicando a distribuição de frequência de pontos para cada um dos eixos do gráfico.
 
 ### Conclusão demonstrada pela visualização
 
