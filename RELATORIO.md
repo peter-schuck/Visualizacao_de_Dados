@@ -59,6 +59,6 @@ Scatter plot da temperatura (°C) pela umidade (%) para todos os dias do ano de 
 > - Escreva uma conclusão curta sobre os dados com base na visualização.
 > - Explique qual insight, padrão ou tendência pode ser observado.
 
-- Percebe-se que existe uma leve correlação negativa entre temperatura e umidade, ou seja, dias mais quentes tendem a ser menos úmidos, fator indicado pela inexistência de dias com altas temperaturas e umidade simultaneamente no canto superior direito do scatter plot;
-- Fora isso, a precipitação parece ser a causa de alguns dos dias mais úmidos, representado pelos pontos mais laranjas e amarelos estarem todos na parte superior do gráfico;
+- Percebe-se que existe uma leve correlação negativa entre temperatura e umidade, ou seja, dias mais quentes tendem a ser menos úmidos, fator indicado pela inexistência de dias com altas temperaturas e umidade simultaneamente, que estariam localizadas no canto superior direito do scatter plot;
+- Fora isso, a precipitação parece ser a causa de alguns dos dias mais úmidos, representado pelos pontos mais laranjas e amarelos estarem predominantemente na parte superior do gráfico;
 - Focando na distribuição dos histogramas, nota-se que a grande maioria dos dias encontra-se nos intervalos de 18 a 26°C de temperatura e 70 a 86% de umidade, apontando para uma predominância anual de temperaturas amenas e umidade relativamente alta.
